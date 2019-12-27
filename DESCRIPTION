@@ -8,6 +8,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Johnson.Patrick3@mayo.edu")
 Description: Hosts common colors, themes, logos and css files for Mayo Clinic use.
+URL: https://overdodactyl.github.io/mayotheme, https://github.com/overdodactyl/mayotheme/
 License: GPL-3
 Depends: R (>= 2.10)
 Encoding: UTF-8
