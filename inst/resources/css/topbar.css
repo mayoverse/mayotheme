@@ -1,0 +1,13 @@
+/*! =========================================================
+@name             topbar.css
+@description      Defines a strip used at the top of documents
+@lastUpdated      December 24, 2019
+============================================================= */
+
+.topbar {
+    height: 6px;
+    background: transparent linear-gradient(to right, var(--mayo-blue) 0%, var(--mayo-brightblue) 100%) repeat scroll 0% 0%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}

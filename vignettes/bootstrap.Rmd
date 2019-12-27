@@ -1,0 +1,35 @@
+---
+title: "Bootstrap Components"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Bootstrap Components}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{css echo=FALSE}
+/* override pkgdown.css */
+.warning {
+  color: #333;
+  font-weight: normal;
+}
+```
+
+
+[Bootstrap](https://getbootstrap.com/) is a popular HTML, CSS and JS framework.  It has made it's way into the world of R in many forms, perhaps most notably via [R Markdown](https://rmarkdown.rstudio.com/) and [R Shiny](https://shiny.rstudio.com/).  `mayotheme` contains a customized Bootstrap theme, making it easy to integrate into your own documents and applications.  The preview below is based on the work of [Bootswatch](https://bootswatch.com/).  
+
+These components can be used whether you are creating a static report, interactive documents, or a full application.  For more details on how, please reference the Bootsrap and R Shiny documentation.  
+
+```{r echo=FALSE}
+htmltools::includeHTML("bootstrap_demo.html")
+```
+
+
+

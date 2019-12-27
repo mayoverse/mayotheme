@@ -1,0 +1,11 @@
+/*! =========================================================
+@name             fonts.css
+@description      Font family definitions
+@lastUpdated      December 24, 2019
+============================================================= */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap');
+
+html, body { font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; }

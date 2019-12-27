@@ -1,0 +1,20 @@
+/*! =========================================================
+@name             tables.css
+@description      Styles HTML tables
+@lastUpdated      December 24, 2019
+============================================================= */
+
+th {
+  background-color: var(--mayo-blue);
+  color: #fff;
+}
+
+th, td {
+  border-bottom: 1px solid #bbb;
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}

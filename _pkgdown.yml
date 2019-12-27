@@ -1,0 +1,14 @@
+reference:
+- title: CSS
+  desc:  Mayo Clinic based CSS files
+  contents:
+  - use_mayo_css
+  - mayo_css_files
+- title: Logos
+  desc:  Mayo Clinic based logos
+  contents:
+  - use_mayo_logo
+- title: Data
+  desc: Data included in mayothemes
+  contents:
+  - mayocolors
