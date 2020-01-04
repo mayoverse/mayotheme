@@ -6,3 +6,4 @@ inst/doc
 .Rbuildignore
 ._.DS_Store
 sessionInfoLog
+docs/
