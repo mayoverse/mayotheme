@@ -13,13 +13,12 @@ mayo_css_files <- function() {
 
   for (i in seq_along(css_files)) {
     print(usethis::ui_field(css_file_names[i]))
-    con = file(css_files[i], "r")
-    while ( TRUE ) {
-      line = readLines(con, n = 1)
-
+    con <- file(css_files[i], "r")
+    while (TRUE) {
+      line <- readLines(con, n = 1)
       if (startsWith(line, "/*!")) {
         # Do nothing
-      } else if (startsWith(line, "===============") ) {
+      } else if (startsWith(line, "===============")) {
         break
       } else {
         print(usethis::ui_value(line))

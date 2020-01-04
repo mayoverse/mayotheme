@@ -4,7 +4,9 @@
 # mayotheme
 
 The goal of mayotheme is to host commonly used Mayo Clinic colors,
-logos, and css files. It is used in mayodown and mayoshiny.
+logos, and css files. It is used in
+[mayodown](https://overdodactyl.github.io/mayodown), mayoshiny, and
+[mayotemplate](https://overdodactyl.github.io/mayotemplate/).
 
 ## Installation
 

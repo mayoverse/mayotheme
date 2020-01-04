@@ -3,7 +3,8 @@
 #' Returns location or data uri of a Mayo logo
 #'
 #' @param logo Logo type
-#' @param data_uri Logical.  Should a data uri be returned? If FALSE, file location is returned.
+#' @param data_uri Logical.  Should a data uri be returned?
+#'     If FALSE, file location is returned.
 #' @export
 
 use_mayo_logo <- function(logo = c("black", "secondary"), data_uri = FALSE) {
