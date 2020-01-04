@@ -1,6 +1,3 @@
-template:
-  package: mayotemplate
-
 reference:
 - title: CSS
   desc:  Mayo Clinic based CSS files
