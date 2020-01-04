@@ -9,7 +9,8 @@ use_mayo_logo(logo = c("black", "secondary"), data_uri = FALSE)
 \arguments{
 \item{logo}{Logo type}
 
-\item{data_uri}{Logical.  Should a data uri be returned? If FALSE, file location is returned.}
+\item{data_uri}{Logical.  Should a data uri be returned?
+If FALSE, file location is returned.}
 }
 \description{
 Returns location or data uri of a Mayo logo
