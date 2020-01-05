@@ -8,6 +8,7 @@ jobs:
   - r: release
     before_cache:
     - Rscript -e 'remotes::install_cran("pkgdown")'
+    - Rscript -e 'remotes::install_github("overdodactyl/template")'
     deploy:
       provider: script
       script: Rscript -e 'pkgdown::deploy_site_github(verbose = TRUE)'
