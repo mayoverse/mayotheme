@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 
 These components can be used whether you are creating a static report, interactive documents, or a full application.  For more details on how, please reference the Bootsrap and R Shiny documentation.  
 
-```{r echo=FALSE}
+```{r eval=FALSE, echo=FALSE}
 htmltools::includeHTML("bootstrap_demo.html")
 ```
 
