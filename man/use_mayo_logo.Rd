@@ -4,7 +4,7 @@
 \alias{use_mayo_logo}
 \title{Use Mayo Logo}
 \usage{
-use_mayo_logo(logo = c("black", "secondary"), data_uri = FALSE)
+use_mayo_logo(logo = c("black", "white", "secondary"), data_uri = FALSE)
 }
 \arguments{
 \item{logo}{Logo type}

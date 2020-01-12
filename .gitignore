@@ -7,3 +7,5 @@ inst/doc
 ._.DS_Store
 sessionInfoLog
 docs/
+test.html
+test.Rmd

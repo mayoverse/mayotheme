@@ -7,7 +7,8 @@
 #'     If FALSE, file location is returned.
 #' @export
 
-use_mayo_logo <- function(logo = c("black", "secondary"), data_uri = FALSE) {
+use_mayo_logo <- function(logo = c("black", "white", "secondary"),
+                          data_uri = FALSE) {
   logo <- match.arg(logo)
   logo <- paste0("logo_", logo, ".png")
   res <- system.file(paste0("resources/images/", logo), package = "mayotheme")

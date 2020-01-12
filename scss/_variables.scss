@@ -3,6 +3,7 @@ $bootstrap-sass-asset-helper: false !default;
 // Variables
 // --------------------------------------------------
 
+//== Mayo Clinic Colors
 
 //== Colors
 //
@@ -15,11 +16,11 @@ $gray:                   #777 !default; // #555
 $gray-light:             #AEA79F !default;   // #999
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #0057B8 !default;
-$brand-success:         #00873E !default;
-$brand-info:            #009CDE !default;
-$brand-warning:         #FFC845 !default;
-$brand-danger:          #E4002B !default;
+$brand-primary:         $mayo-blue !default;
+$brand-success:         $mayo-green !default;
+$brand-info:            $mayo-brightblue !default;
+$brand-warning:         $mayo-yellow !default;
+$brand-danger:          $mayo-red !default;
 
 
 //== Scaffolding
